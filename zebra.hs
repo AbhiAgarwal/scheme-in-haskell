@@ -18,7 +18,6 @@ symbol = oneOf "!#$%&|*+-/:<=>?@^_~"
 --      4. A Number, containing a Haskell Integer
 --      5. A String, containing a Haskell String
 --      6. A Bool, containing a Haskell boolean value
-
 data LispVal = Atom String
     | List [LispVal]
     | DottedList [LispVal] LispVal
