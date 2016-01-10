@@ -11,3 +11,5 @@ Implementing Scheme in Haskell. Following [this](https://en.wikibooks.org/wiki/W
 ### Evaluating expressions
 
 - `./zebra "(- (+ 4 6 3) 3 5 2)"`
+- `./zebra "(if (> 2 3) \"no\" \"yes\")"`
+- `./zebra "(if (= 3 3) (+ 2 3 (- 5 1)) \"unequal\")"`
